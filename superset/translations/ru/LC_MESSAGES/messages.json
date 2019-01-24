@@ -448,6 +448,9 @@
          "share query": [
             "Скопировать запрос"
          ],
+	 "Share Query": [
+            "Скопировать запрос"
+         ],
          "copy URL to clipboard": [
             "скопировать ссылку в буфер обмена"
          ],
@@ -697,6 +700,12 @@
          "Choose a datasource": [
             "Выберите источник данных"
          ],
+         "choose a column or metric": [
+            "Выберите столбец или метрику"
+         ],
+         "choose a column or aggregate function": [
+            "Выберите столбец или агрегатную функцию"
+         ],
          "Choose a visualization type": [
             "Выберите тип диаграммы"
          ],
@@ -741,6 +750,9 @@
          ],
          "Copy to clipboard": [
             "Скопировать в буфер обмена"
+         ],
+	 "Clipboard": [
+            "Скопировать"
          ],
          "Not successful": [
             "Неудачно"
@@ -804,6 +816,21 @@
          ],
          "Add some slices to this dashboard": [
             "Добавить диаграмму в отчёт"
+         ],
+	 "List Css Template": [
+            "Показать CSS шаблоны"
+         ],
+	 "List Query": [
+            "Показать запросы"
+         ],
+	 "List Annotation Layer": [
+            "Показать слой аннотации"
+         ],
+	 "List Annotation": [
+            "Показать аннотации"
+         ],
+	 "Asynchronous Query Execution": [
+            "Асинхронное выполнение запроса"
          ],
          "Edit CSS": [
             "Редактировать CSS"
@@ -905,7 +932,7 @@
             "Принудительное обновление данных"
          ],
          "Annotation layers are still loading.": [
-            "Слои аннотаций загружаются."
+            "Слои аннотации загружаются."
          ],
          "One ore more annotation layers failed loading.": [
             "Один или несколько слоев аннотации не удалось загрузить."
@@ -921,6 +948,9 @@
          ],
          "Export CSV": [
             "Export CSV"
+         ],
+	 "Explore": [
+            "Обзор"
          ],
          "Explore chart": [
             "Обзор графика"
@@ -1042,6 +1072,18 @@
          "Filter value": [
             "Значение фильтра"
          ],
+	 "See table schema": [
+            "Посмотреть табличную схему"
+         ],
+	 "Filter by user": [
+            "Сортировать по пользователям"
+         ],
+	 "Filter by database": [
+            "Сортировать по БД"
+         ],
+	 "Query search string": [
+            "Сделать запрос"
+         ],
          "Select metric": [
             "Выбрать показатель"
          ],
@@ -1153,6 +1195,9 @@
          "Metric": [
             "Показатель"
          ],
+	 "Choose file": [
+            "Выбрать файл"
+         ],
          "Choose the metric": [
             "Выберите показатель"
          ],
@@ -1176,6 +1221,12 @@
          ],
          "Normalize Across": [
             ""
+         ],
+         "Normalized": [
+            "Нормализованный"
+         ],
+         "Numeric Columns": [
+            "Числовые столбцы"
          ],
          "Color will be rendered based on a ratio of the cell against the sum of across this criteria": [
             "Цвет будет рассчитываться на основе отношения ячейки к сумме"
@@ -1663,14 +1714,29 @@
          "Date Filter": [
             "Временной фильтр"
          ],
+         "Time range": [
+            "Временной диапазон"
+         ],
          "Whether to include a time filter": [
             "Включить фильтр на определенный интервал/диапазон времени"
          ],
          "Show SQL Granularity Dropdown": [
             ""
          ],
+         "Show Trend Line": [
+            "Показать линию тренда"
+         ],
+         "Start y-axis at 0": [
+            "Начать ось Y с 0"
+         ],
          "Check to include SQL Granularity dropdown": [
             ""
+         ],
+         "Filters Configuration": [
+            "Конфигурация фильтров"
+         ],
+         "Global Filters": [
+            "Глобальные фильтры"
          ],
          "Show SQL Time Column": [
             ""
@@ -1812,6 +1878,21 @@
          ],
          "Map Style": [
             "Стиль Карты"
+         ],
+         "Show SQL Time Column": [
+            "Показать столбец времени SQL"
+         ],
+         "Show Druid Time Origin": [
+            "Показать источник времени Druid"
+         ],
+         "Show SQL Granularity Dropdown": [
+            "Показать выпадающий список SQL детализации"
+         ],
+         "Show Druid Granularity Dropdown": [
+            "Показать выпадающий список Druid детализации"
+         ],
+         "Empty collection": [
+            "Пусто"
          ],
          "Base layer map style": [
             "Выбрать стиль карты"
@@ -2434,6 +2515,9 @@
          "Recent Activity": [
             "Последние действия"
          ],
+	 "Recently Viewed": [
+            "Недавно просмотренные"
+         ],
          "Security & Access": [
             "Безопасность и Доступ"
          ],
@@ -2782,6 +2866,15 @@
          "Login": [
             "Вход в систему"
          ],
+	 "Login Count": [
+            "Количество авторизации"
+         ],
+	 "Allow Csv Upload": [
+            "Разрешить загрузку CSV"
+         ],
+	 "Failed Login Count": [
+            "Количество неудачных авторизации"
+         ],
          "Record Count": [
             "Количество записей"
          ],
@@ -2804,7 +2897,7 @@
             "Тестовое соединение"
          ],
          "Annotation Layers": [
-            "Слои аннотаций"
+            "Слои аннотации"
          ],
          "Manage": [
             "Управление"
@@ -2894,7 +2987,7 @@
             "Разрешить CREATE TABLE AS"
          ],
          "Allow DML": [
-            "Allow DML"
+            "Разрешить DML"
          ],
          "CTAS Schema": [
             "Схема по умолчанию"
@@ -2974,11 +3067,17 @@
          "Parameters": [
             "Параметры"
          ],
+	 "parameters": [
+            "Параметры"
+         ],
          "Chart": [
             "График"
          ],
          "List Dashboards": [
             "Список Отчётов"
+         ],
+	 "List Log": [
+            "Список действий"
          ],
          "Show Dashboard": [
             "Показать Отчёт"
@@ -3096,6 +3195,33 @@
          ],
          "Upload a CSV": [
             "Загрузить CSV"
+         ],
+	 "Upload": [
+            "Загрузить"
+         ],
+	 "state": [
+            "Статус"
+         ],
+	 "db": [
+            "БД"
+         ],
+	 "user": [
+            "Пользователь"
+         ],
+	 "time": [
+            "Время"
+         ],
+	 "progress": [
+            "Прогресс"
+         ],
+	 "rows": [
+            "Строки"
+         ],
+	 "sql": [
+            "Запрос"
+         ],
+	 "querylink": [
+            "Ссылка к запросу"
          ],
          "Status": [
             "Статус"

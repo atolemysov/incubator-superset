@@ -1,0 +1,7 @@
+#!/home/askar/Документы/incubator-superset/sup/bin/python3.6 -x
+# EASY-INSTALL-DEV-SCRIPT: 'superset==0.999.0.dev0','superset'
+__requires__ = 'superset==0.999.0.dev0'
+__import__('pkg_resources').require('superset==0.999.0.dev0')
+__file__ = '/home/askar/Документы/incubator-superset/superset/bin/superset'
+with open(__file__) as f:
+    exec(compile(f.read(), __file__, 'exec'))
