@@ -1154,6 +1154,10 @@ msgstr "Заголовок"
 msgid "click to edit title"
 msgstr "нажмите для изменения заголовка"
 
+#: superset/assets/javascripts/components/EditableTitle.jsx:105
+msgid "click to edit"
+msgstr "нажмите для изменения заголовка"
+
 #: superset/assets/javascripts/components/EditableTitle.jsx:106
 msgid "You don't have the rights to alter this title."
 msgstr "Недостаточно прав для изменения заголовка."
@@ -1180,6 +1184,10 @@ msgstr "Сохранить как"
 
 #: superset/assets/src/dashboard/components/Controls.jsx:131
 msgid "Force Refresh"
+msgstr "Принудительное обновление"
+
+#: superset/assets/src/dashboard/components/SliceHeaderControl:128
+msgid "Force refresh"
 msgstr "Принудительное обновление"
 
 #: superset/assets/spec/javascripts/dashboard/components/Controls.jsx:132
@@ -1389,7 +1397,7 @@ msgstr "Редактировать график"
 
 #: superset/assets/javascripts/dashboard/components/SliceHeader.jsx:142
 msgid "Export CSV"
-msgstr "Export CSV"
+msgstr "Экспортировать в CSV"
 
 #: superset/assets/javascripts/dashboard/components/SliceHeader.jsx:151
 msgid "Explore chart"
@@ -4511,8 +4519,33 @@ msgstr "Выберите столбец или метрику"
 msgid "choose a column or aggregate function"
 msgstr "Выберите столбец или агрегатную функцию"
 
+#: superset/assets/src/dashboard/components/HeaderActionsDropdown.jsx:142
+msgid "Force refresh dashboard"
+msgstr "Принудительное обновление отчета"
 
+#: superset/assets/src/dashboard/components/HeaderActionsDropdown.jsx:142
+msgid "Share dashboard"
+msgstr "Поделиться отчетом"
 
+#: superset/assets/src/dashboard/components/HeaderActionsDropdown.jsx:142
+msgid "Set auto-refresh interval"
+msgstr "Установить интервал автообновления"
+
+#: superset/assets/src/dashboard/components/HeaderActionsDropdown.jsx:142
+msgid "Edit dashboard metadata"
+msgstr "Изменить метаданные отчета"
+
+#: superset/assets/src/dashboard/components/SliceHeaderControls.jsx:142
+msgid "Edit chart metadata"
+msgstr "Изменить метаданные графика"
+
+#: superset/forms.py:98
+msgid "A comma separated list of columns that should be parsed as dates."
+msgstr "Разделенный запятыми список столбцов, которые должны быть проанализированы как даты."
+
+#: superset/assets/javascripts/SqlLab/components/ExploreResultsButton.jsx:173
+msgid "Explore the result set in the data exploration view"
+msgstr "Исследовать результаты в виде разных графиков"
 
 #: superset/assets/src/explore/controls.jsx:2303
 msgid "Normalized"
@@ -4542,9 +4575,6 @@ msgstr "Конфигурация фильтров"
 msgid "Global Filters"
 msgstr "Глобальные фильтры"
 
-
-
-
 #: superset/assets/src/explore/components/controls/CollectionControl.jsx:35
 msgid "Empty collection"
 msgstr "Пусто"
@@ -4565,14 +4595,6 @@ msgstr "Показать столбец времени SQL"
 msgid "Show Druid Time Origin"
 msgstr "Показать источник времени Druid"
 
-
-
-
-
-
-
-
-
 #: superset/assets/javascripts/SqlLab/components/ResultSet.jsx:123
 msgid "Clipboard"
 msgstr "Скопировать"
@@ -4582,12 +4604,6 @@ msgstr "Скопировать"
 #: superset/assets/src/SqlLab/components/ExploreResultsButton.jsx:40
 msgid "Explore"
 msgstr "Обзор"
-
-
-
-
-
-
 
 #: superset/assets/src/SqlLab/components/QuerySearch:250
 msgid "state"
@@ -4621,17 +4637,146 @@ msgstr "Запрос"
 msgid "querylink"
 msgstr "Ссылка к запросу"
 
-
-
-
-###########unbale to find
 #: superset/assets/javascripts/SqlLab/components/SaveQuery.jsx:100
-msgid "Login Count"
+msgid "Login count"
 msgstr "Количество авторизации"
 
 #: superset/assets/javascripts/SqlLab/components/SaveQuery.jsx:100
-msgid "Failed Login Count"
+msgid "Failed login count"
 msgstr "Количество неудачных авторизации"
+
+#: superset/assets/src/visualizations/nvd3/Area/AreaChartPlugin.js:8
+msgid "Area Chart"
+msgstr "Область"
+
+#: superset/assets/src/visualizations/nvd3/Bar/BarChartPlugin.js:8
+msgid "Time-series Bar Chart"
+msgstr "Временной столбчатый"
+
+#: superset/assets/src/visualizations/BigNumber/BigNumberChartPlugin.js:7
+msgid "Big Number with Trendline"
+msgstr "Большое число с трендовой линией"
+
+#: superset/assets/src/visualizations/BigNumberTotal/BigNumberTotalChartPlugin.js:7
+msgid "Big Number"
+msgstr "Большое число"
+
+#: superset/assets/src/visualizations/nvd3/BoxPlot/BoxPlotChartPlugin.js:7
+msgid "Box Plot"
+msgstr "Ящик с усами"
+
+#: superset/assets/src/visualizations/nvd3/DistBar/DistBarChartPlugin.js:7
+msgid "Bar Chart"
+msgstr "Столбчатый"
+
+#: superset/assets/src/visualizations/nvd3/Line/LineChartPlugin.js:8
+msgid "Line Chart"
+msgstr "Линия"
+
+#: superset/assets/src/visualizations/TimeTable/TimeTableChartPlugin.js:8
+msgid "Time-series Table"
+msgstr "Временная таблица"
+
+#: superset/assets/src/visualizations/Partition/PartitionChartPlugin.js:8
+msgid "Partition Chart"
+msgstr "Раздел"
+
+#: superset/assets/src/visualizations/Sunburst/SunburstChartPlugin.js:8
+msgid "Sunburst Chart"
+msgstr "Кольцевая"
+
+#: superset/assets/src/visualizations/MapBox/MapBoxChartPlugin.js:8
+msgid "MapBox"
+msgstr "MapBox"
+
+#: superset/assets/src/visualizations/nvd3/Bullet/BulletChartPlugin.js:8
+msgid "Bullet Chart"
+msgstr "Пулевая"
+
+#: superset/assets/src/visualizations/Calendar/CalendarChartPlugin.js:8
+msgid "Calendar Heatmap"
+msgstr "Календарьный"
+
+#: superset/assets/src/visualizations/Chord/ChordChartPlugin.js:8
+msgid "Chord Diagram"
+msgstr "Хорда"
+
+#: superset/assets/src/visualizations/nvd3/Compare/CompareChartPlugin.js:8
+msgid "Time-series Percent Change"
+msgstr "Временное изменение в процентах"
+
+#: superset/assets/src/visualizations/nvd3/DualLine/DualLineChartPlugin.js:8
+msgid "Dual Line Chart"
+msgstr "Двойная линия"
+
+#: superset/assets/src/visualizations/EventFlow/EventFlowChartPlugin.js:8
+msgid "Event Flow"
+msgstr "Поток событий"
+
+#: superset/assets/src/visualizations/ForceDirected/ForceDirectedChartPlugin.js:8
+msgid "Force-directed Graph"
+msgstr "Форсированный граф"
+
+#: superset/assets/src/visualizations/nvd3/Area/AreaChartPlugin.js:8
+msgid "Heatmap"
+msgstr "Тепловая карта"
+
+#: superset/assets/src/visualizations/nvd3/Area/AreaChartPlugin.js:8
+msgid "Horizon Chart"
+msgstr "Горизонт"
+
+#: superset/assets/src/visualizations/nvd3/Area/AreaChartPlugin.js:8
+msgid "Multiple Line Charts"
+msgstr "Несколько линий"
+
+#: superset/assets/src/visualizations/nvd3/Area/AreaChartPlugin.js:8
+msgid "Paired t-test Table"
+msgstr "Таблица парных т-тестов"
+
+#: superset/assets/src/visualizations/nvd3/Area/AreaChartPlugin.js:8
+msgid "Parallel Coordinates"
+msgstr "Параллельные координаты"
+
+#: superset/assets/src/visualizations/nvd3/Area/AreaChartPlugin.js:8
+msgid "Nightingale Rose Chart"
+msgstr "Цветок"
+
+#: superset/assets/src/visualizations/nvd3/Area/AreaChartPlugin.js:8
+msgid "Sankey Diagram"
+msgstr "Санкей"
+
+#: superset/assets/src/visualizations/nvd3/Area/AreaChartPlugin.js:8
+msgid "Time-series Period Pivot"
+msgstr "Временно-периодная сводная диаграмма"
+
+#: superset/assets/src/explore/components/DisplayQueryButton.jsx.js:195
+msgid "View query"
+msgstr "Посмотреть запрос"
+
+#: superset/assets/src/explore/components/DisplayQueryButton.jsx.js:195
+msgid "View results"
+msgstr "Посмотреть результат"
+
+#: superset/assets/src/explore/components/DisplayQueryButton.jsx.js:195
+msgid "View samples"
+msgstr "Посмотреть образец"
+
+#: superset/assets/src/explore/components/DisplayQueryButton.jsx.js:195
+msgid "Run in SQL Lab"
+msgstr "Запустить в лаборатории"
+
+#: superset/assets/src/explore/components/ExploreChartHeader.jsx.js:195
+msgid "Edit chart properties"
+msgstr "Изменить свойства графики"
+
+#: superset/assets/src/explore/components/ExploreChartHeader.jsx.js:195
+msgid "Save"
+msgstr "Сохранить"
+
+#: superset/assets/src/explore/components/ControlPanelsContainer.jsx.js:195
+msgid "Data"
+msgstr "Данные"
+
 #################################################################
 
 #: superset/views/core.py:227
@@ -4829,6 +4974,10 @@ msgstr "Добавить Отчёт"
 
 #: superset/views/core.py:523
 msgid "Edit Dashboard"
+msgstr "Редактировать Отчёт"
+
+#: superset/views/core.py:523
+msgid "Edit dashboard"
 msgstr "Редактировать Отчёт"
 
 #: superset/views/core.py:535

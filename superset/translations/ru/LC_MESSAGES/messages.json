@@ -769,6 +769,12 @@
          "click to edit title": [
             "нажмите для изменения заголовка"
          ],
+         "Run Query": [
+            "Выполнить запрос"
+         ],
+         "click to edit": [
+            "нажмите для изменения заголовка"
+         ],
          "You don't have the rights to alter this title.": [
             "Недостаточно прав для изменения заголовка."
          ],
@@ -785,6 +791,9 @@
             "Сохранить как"
          ],
          "Force Refresh": [
+            "Принудительное обновление"
+         ],
+         "Force refresh": [
             "Принудительное обновление"
          ],
          "Force refresh the whole dashboard": [
@@ -915,6 +924,9 @@
          ],
          "Datasource": [
             "Источник данных"
+         ],
+         "Data": [
+            "Данные"
          ],
          "Modified": [
             "Изменено"
@@ -1120,6 +1132,106 @@
          "Geohash": [
             ""
          ],
+         "Area Chart": [
+            "Область"
+         ],
+
+
+         "Time-series Bar Chart": [
+            "Временной столбчатый"
+         ],
+         "Big Number with Trendline": [
+            "Большое число с трендовой линией"
+         ],
+         "Big Number": [
+            "Большое число"
+         ],
+         "Box Plot": [
+            "Ящик с усами"
+         ],
+         "Bar Chart": [
+            "Столбчатый"
+         ],
+         "Line Chart": [
+            "Линия"
+         ],
+         "Time-series Table": [
+            "Временная таблица"
+         ],
+         "Partition Chart": [
+            "Раздел"
+         ],
+         "Sunburst Chart": [
+            "Кольцевая"
+         ],
+         "MapBox": [
+            "MapBox"
+         ],
+         "Bullet Chart": [
+            "Пулевая"
+         ],
+         "Calendar Heatmap": [
+            "Календарьный"
+         ],
+         "Chord Diagram": [
+            "Хорда"
+         ],
+         "View query": [
+            "Посмотреть запрос"
+         ],
+         "View results": [
+            "Посмотреть результат"
+         ],
+         "View samples": [
+            "Посмотреть образец"
+         ],
+         "Run in SQL Lab": [
+            "Запустить в лаборатории"
+         ],
+         "Edit chart properties": [
+            "Изменить свойства графики"
+         ],
+         "Time-series Percent Change": [
+            "Временное изменение в процентах"
+         ],
+         "Dual Line Chart": [
+            "Двойная линия"
+         ],
+         "Event Flow": [
+            "Поток событий"
+         ],
+         "Force-directed Graph": [
+            "Форсированный граф"
+         ],
+         "Heatmap": [
+            "Тепловая карта"
+         ],
+         "Horizon Chart": [
+            "Горизонт"
+         ],
+         "Multiple Line Charts": [
+            "Несколько линий"
+         ],
+         "Paired t-test Table": [
+            "Таблица парных т-тестов"
+         ],
+         "Parallel Coordinates": [
+            "Параллельные координаты"
+         ],
+         "Nightingale Rose Chart": [
+            "Цветок"
+         ],
+         "Sankey Diagram": [
+            "Санкей"
+         ],
+         "Time-series Period Pivot": [
+            "Временно-периодная сводная диаграмма"
+         ],
+         
+
+
+
+
          "textarea": [
             "текстовая область"
          ],
@@ -2866,13 +2978,19 @@
          "Login": [
             "Вход в систему"
          ],
-	 "Login Count": [
+	      "Login count": [
             "Количество авторизации"
          ],
-	 "Allow Csv Upload": [
+         "Explore the result set in the data exploration view": [
+            "Исследовать результаты в виде разных графиков"
+         ],
+         "A comma separated list of columns that should be parsed as dates.": [
+            "Разделенный запятыми список столбцов, которые должны быть проанализированы как даты."
+         ],
+	      "Allow Csv Upload": [
             "Разрешить загрузку CSV"
          ],
-	 "Failed Login Count": [
+	      "Failed login count": [
             "Количество неудачных авторизации"
          ],
          "Record Count": [
@@ -3067,7 +3185,7 @@
          "Parameters": [
             "Параметры"
          ],
-	 "parameters": [
+	      "parameters": [
             "Параметры"
          ],
          "Chart": [
@@ -3076,16 +3194,37 @@
          "List Dashboards": [
             "Список Отчётов"
          ],
-	 "List Log": [
+	      "List Log": [
             "Список действий"
          ],
          "Show Dashboard": [
             "Показать Отчёт"
          ],
+         "Force refresh dashboard": [
+            "Принудительное обновление отчета"
+         ],
+         "Share dashboard": [
+            "Поделиться отчетом"
+         ],
+         "Set auto-refresh interval": [
+            "Установить интервал автообновления"
+         ],
+         "Edit dashboard metadata": [
+            "Изменить метаданные отчета"
+         ],
+         "Edit chart metadata": [
+            "Изменить метаданные графика"
+         ],
+         "Export CSV": [
+            "Экспортировать в CSV"
+         ],
          "Add Dashboard": [
             "Добавить Отчёт"
          ],
          "Edit Dashboard": [
+            "Редактировать Отчёт"
+         ],
+         "Edit dashboard": [
             "Редактировать Отчёт"
          ],
          "This json object describes the positioning of the widgets in the dashboard. It is dynamically generated when adjusting the widgets size and positions by using drag & drop in the dashboard view": [

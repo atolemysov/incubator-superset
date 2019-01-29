@@ -44,9 +44,9 @@ class DashboardTable extends React.PureComponent {
           itemsPerPage={50}
           hideFilterInput
           columns={[
-            { key: 'dashboard', label: 'Dashboard' },
-            { key: 'creator', label: 'Creator' },
-            { key: 'modified', label: 'Modified' },
+            { key: 'dashboard', label: t('Dashboard') },
+            { key: 'creator', label: t('Creator') },
+            { key: 'modified', label: t('Modified') },
           ]}
           defaultSort={{ column: 'modified', direction: 'desc' }}
         >
